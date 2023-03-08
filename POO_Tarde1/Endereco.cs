@@ -8,12 +8,12 @@ namespace POO_Tarde1
 {
     public class Endereco
     {
-        int Id;
-        int Cep;
-        string Rua;
-        string Bairro;
-        string Cidade;
-        int Numero;
+        private int Id;
+        private int Cep;
+        private string Rua;
+        private string Bairro;
+        private string Cidade;
+        private int Numero;
         public Endereco(int id,int cep, string rua,string bairro,string cidade,int numero) 
         {
             Id = id;
