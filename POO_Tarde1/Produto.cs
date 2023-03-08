@@ -23,13 +23,33 @@ namespace POO_Tarde1
         {
             return Id;
         }
+        public void setId(int id)
+        {
+            Id=id;
+        }
+
+
         public string getDescricao() 
         {
             return Descricao; 
         }
+        public void setDescricao(string descricao)
+        {
+            Descricao=descricao;
+        }
+
+
         public decimal getValor()
         {
             return Valor;
         }
+        public void setValor(decimal valor)
+        {
+            if (valor > 0)
+            {
+                Valor = valor;
+            }
+        }
+
     }
 }
